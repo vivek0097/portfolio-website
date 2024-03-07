@@ -1,0 +1,88 @@
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-menu{
+    display: flex;
+}
+.nav-menu li{
+    padding: 0 2rem;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+.nav-menu li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+li > a{
+    text-decoration: none;
+}
+
+
+.logo-txt{
+    text-shadow: 5px 5px 10px #2fdeee;;
+}
+
+.sidebar-icon{
+    display: none;
+}
+
+
+@media screen and (max-width: 1040px) {
+
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        border-right: 3px solid #fff;
+        width: 65%;
+        height: 100vh;
+        background: #070640;
+        position: fixed;
+        top: 10vh;
+        left: -100%;
+        z-index: 1289;
+        transition: 0.3s;
+    }
+    
+    .nav-menu.active{
+        left: 0;
+    }
+    .nav-menu li{
+        padding-top: 0px;
+        padding: 1rem 0;
+    }
+    .nav-menu li a{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .nav-menu li a:hover, .nav-menu li a:focus{
+        color: rgb(80, 186, 0);
+    }
+    .icon-size{
+        height: 30px;
+        width: 30px;
+    }
+
+    .backdrop {
+        position: fixed;
+        top: 10vh;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(17, 9, 65, 0.531);
+        z-index: 2000;
+        height: 100%;
+      }
+
+      .sidebar-icon{
+        display: block;
+      }
+    
+}

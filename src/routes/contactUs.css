@@ -1,0 +1,152 @@
+.contact-ct-main{
+   min-height: 100%;
+   height: auto; 
+}
+
+
+.contact-section-two{
+  min-height: 80vh;
+  height: auto;
+  background: #fff;
+  
+}
+.section-heading-one{
+    font-size: 55px;
+    font-weight: 900;
+}
+.contact-crd-box{
+    height: 100%;
+    padding: 20px;
+
+}
+.left-contact-box{
+  min-height: 70vh;
+  height: auto;
+  padding: 60px 65px 30px;
+  box-shadow: 0 5px 15px 0 rgba(68,68,68,.1);
+  border-radius: 5px;
+  background-color: #fff;
+}
+.right-contact-box{
+  min-height: 70vh;
+  height: auto;
+   background-color: #fff;
+}
+.contact-cards{
+  box-shadow: 0 10px 40px 0 rgba(50,50,50,.1);
+  padding: 33px 40px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.txt-body{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.txt-body .icon-contact {
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  line-height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 10px 40px 0 rgba(50,50,50,.1);
+  text-align: center;
+  margin-right: 20px;
+  align-items: center;
+}
+.txt-body .icon-contact-txt{
+  color: #8c8b8b;
+  font-size: 18px;
+  font-weight: 400;
+}
+.title{
+  color: #131058;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact-form-heading{
+  color: #131058;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.heading-box-contact{
+  padding-top: 3rem;
+}
+.contact-input{
+  border-bottom: 2px solid #eee;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0px 5px 4px 0px;
+  width: 100%;
+}
+.contact-input:focus{
+  border-bottom: 2px solid #eee;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+
+.message-btn{
+  background: #fe3e57;
+  color: #fff;
+  border: 1px solid #fe3e57;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 40px;
+  font-weight: 600;
+  padding: 17px 40px 13px;
+  text-transform: capitalize;
+}
+
+
+
+/* ------------for motion animation---------------- */
+
+@media screen and (max-width: 786px) {
+  .heading-box-contact{
+    padding-top: 6rem;
+  }
+  .left-contact-box{
+    min-height: 70vh;
+    height: auto;
+    padding: 30px 50px 40px 50px;
+    box-shadow: 0 5px 15px 0 rgba(68,68,68,.1);
+  
+  }
+  .right-contact-box{
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .heading-box-contact{
+    padding-top: 5rem;
+  }
+  .section-heading-one{
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .left-contact-box{
+    min-height: 70vh;
+    height: auto;
+    padding: 30px 30px 40px 30px;
+    box-shadow: 0 5px 15px 0 rgba(68,68,68,.1);
+  
+  }
+  .message-btn{
+    background: #fe3e57;
+    color: #fff;
+    border: 1px solid #fe3e57;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 40px;
+    font-weight: 600;
+    padding: 10px 30px 8px;
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,116 @@
+.about-ct{
+    min-height: 90vh;
+    height: auto;
+    position: relative;
+}
+
+.top-image-about{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}
+.image-top-ct{
+    display: block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text-box{
+    position: absolute;
+    background-color: transparent;
+    height: 40vh;
+    width: 100%;
+}
+
+.about-heading-one{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.about-heading-two{
+    color: #201e43;
+    font-size: 20px;
+}
+
+
+/* ----------------box---two */
+
+.about-box-two{
+    top: 0;
+    background: #FFFFFF;
+    height: auto;
+    min-height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+
+
+/* ----skill ct----------------------------------------- */
+.skill-box-ct{
+    background: #f9f9f9;
+    min-height: 55vh;
+    height: auto;
+    padding: 100px 0;
+    position: relative;
+}
+
+
+
+
+/* ---services ct- box-------------- */
+.about-section-fourct{
+    height: auto;
+    min-height: 80vh;
+    background: #fff;
+    position: relative;
+}
+/* -------media query for ----1080------- */
+@media screen and (max-width: 780px) {
+    .top-image-about{
+        height: 30vh;
+        width: 100%;
+        position: relative;
+    }
+    .image-text-box{
+        position: absolute;
+        background-color: transparent;
+        height: 30vh;
+        width: 100%;
+    }
+    .skill-box-ct{
+        background: #f9f9f9;
+        min-height: 60vh;
+        padding: 100px 0;
+        position: relative;
+        height: auto;
+    }
+}
+/* -------media query for ----468------ */
+@media screen and (max-width: 468px) {
+    .top-image-about{
+        height: 30vh;
+        width: 100%;
+        position: relative;
+    }
+    .image-text-box{
+        position: absolute;
+        background-color: transparent;
+        height: 30vh;
+        width: 100%;
+    }
+    .about-heading-one{
+        font-size: 30px;
+    }
+    .skill-box-ct{
+        background: #f9f9f9;
+        min-height: 60vh;
+        padding: 100px 0;
+        position: relative;
+        height: auto;
+    
+    }
+}

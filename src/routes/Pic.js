@@ -1,0 +1,1 @@
+export const deamonImage = '/assets/images/deamon.jpg';

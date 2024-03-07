@@ -1,0 +1,23 @@
+.head-box{
+  height: 10vh;
+  background: #090726;
+  position: fixed;
+  z-index: 1038;
+}
+
+ .content-box{
+   top: 10vh;
+    min-height: 90vh;
+    height: auto;
+    background-color: #121127;
+    position: relative;
+} 
+
+
+
+
+@media screen and (max-width: 1000px) {
+  .head-box{
+    background-color: #0d0c4c;
+  }
+}
